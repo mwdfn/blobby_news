@@ -1,0 +1,164 @@
+* {
+    max-width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+
+    display: block;
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 251, 0);
+
+}
+
+#logo{
+    transform:skew(-40deg, 0deg) scaleY(.66667);
+    font-size: 225px;
+    text-align: center;
+    margin-right: 10px;
+    text-decoration: underline;
+}
+
+body > header{
+    font-size: 25px;
+    float: center;
+    background-image: linear-gradient(to bottom right, rgb(3, 255, 83),rgb(244, 115, 225));
+    background-size: auto;
+    color: rgb(255, 251, 0);
+    text-indent: 100px;
+    
+}
+
+body > header > nav > ul{
+    text-align: right;
+}
+
+/* #blobby-three-images{
+    background-color: rgb(118, 0, 110);
+    border-radius: 10px;
+    float: right;
+    margin-right: 100px;
+    box-shadow: h-offset v-offset blur color;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    
+} */
+
+#blobby-home{
+    padding: 10px;
+    background-color: rgb(218, 90, 165);
+    border-radius: 10px;
+    margin-right: 100px;
+    box-shadow: h-offset v-offset blur color;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    float: right;
+    margin-right: 200px;
+
+}
+
+#mr-bloggy{
+    padding: 10px;
+    background-color: rgb(218, 90, 165);
+    border-radius: 10px;
+    margin-right: 100px;
+    box-shadow: h-offset v-offset blur color;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    float: right;   
+    margin-right: 200px;
+}
+
+#contact-blobby{
+    padding: 10px;
+    background-color: rgb(218, 90, 165);
+    border-radius: 10px;
+    margin-right: 100px;
+    box-shadow: h-offset v-offset blur color;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    float: right;
+    margin-right: 200px;
+}
+
+body > section {
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    object-position: 50px 10px;
+    float: right;
+    margin-right: 100px;
+    background-color: rgb(218, 90, 165);
+    box-shadow: h-offset v-offset blur color;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+body > aside{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(218, 90, 165);
+    border-radius: 10px;
+    width: 290px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: h-offset v-offset blur color;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+
+}
+body > main {
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+body > div {
+    display: block;
+    font: .9rem 'Fira Sans', sans-serif;
+}
+
+input[type='submit'],
+label {
+    margin-top: 1rem;
+}
+
+body > main > article > hgroup{
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgb(218, 90, 165);
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: h-offset v-offset blur color;
+    box-shadow: 0 0 500px rgba(0, 0, 0, 0.2);
+
+}
+
+body > main > footer {
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#respond input[type='text'],
+#respond textarea {
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+
+    line-height: 1.4em;
+}
+
+body > footer{
+    font-size: 30px;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, rgb(244, 115, 225), rgb(3, 255, 83));
+    height: 50px;
+    text-align: center;
+}
